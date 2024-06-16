@@ -9,7 +9,7 @@ wifi.active(False)
 time.sleep(0.5)
 wifi.active(True)
 
-wifi.connect("TANYOG","bulbul12")
+wifi.connect("TANYOG","bulbul12") #ssid,password
 
 if not wifi.isconnected():
     print("connecting...")
